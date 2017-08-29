@@ -8,3 +8,12 @@
     </div>
   </li>
 </template>
+
+
+<script>
+  import Vue from 'vue'
+  Vue.component('item-component', {
+    template: '#item-template',
+    props: ['item']
+  })
+</script>

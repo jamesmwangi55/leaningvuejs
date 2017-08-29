@@ -10,3 +10,15 @@
 </span>
   </div>
 </template>
+
+<script>
+  import Vue from 'vue'
+  Vue.component('add-item-component', {
+    template: "#add-item-template",
+    data: function () {
+      return {
+        newItem: ''
+      }
+    }
+  })
+</script>
