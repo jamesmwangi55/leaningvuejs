@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc2f945a-f4df-4e16-a348-9cbee5734b8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-list/index.html" afterPath="$PROJECT_DIR$/shopping-list/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-list/src/App.vue" afterPath="$PROJECT_DIR$/shopping-list/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.vue" afterPath="$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-list/src/components/ItemComponent.vue" afterPath="$PROJECT_DIR$/shopping-list/src/components/ItemComponent.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-list/src/components/ItemsComponent.vue" afterPath="$PROJECT_DIR$/shopping-list/src/components/ItemsComponent.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue" afterPath="$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +22,7 @@
       <file leaf-file-name="ItemComponent.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping-list/src/components/ItemComponent.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="120">
               <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
@@ -50,21 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeTitleComponent.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChangeTitleComponent.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddItemComponent.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddItemComponent.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -73,10 +72,10 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping-list/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="85">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
-                <element signature="e#308#372#0" expanded="true" />
+                <element signature="e#323#387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,12 +163,12 @@
         <option value="$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.js" />
         <option value="$PROJECT_DIR$/shopping-list/src/router/index.js" />
         <option value="$PROJECT_DIR$/shopping-list/src/main.js" />
-        <option value="$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue" />
         <option value="$PROJECT_DIR$/shopping-list/index.html" />
-        <option value="$PROJECT_DIR$/shopping-list/src/App.vue" />
         <option value="$PROJECT_DIR$/shopping-list/src/components/ItemComponent.vue" />
         <option value="$PROJECT_DIR$/shopping-list/src/components/ItemsComponent.vue" />
         <option value="$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.vue" />
+        <option value="$PROJECT_DIR$/shopping-list/src/App.vue" />
+        <option value="$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue" />
       </list>
     </option>
   </component>
@@ -289,12 +288,12 @@
       <workItem from="1503731735236" duration="2557000" />
       <workItem from="1503734307983" duration="7168000" />
       <workItem from="1503822579270" duration="37000" />
-      <workItem from="1503992718087" duration="7228000" />
+      <workItem from="1503992718087" duration="10394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26174000" />
+    <option name="totallyTimeSpent" value="29340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -506,21 +505,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue">
+    <entry file="file://$PROJECT_DIR$/shopping-list/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#323#387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-list/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#308#372#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,16 +533,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping-list/src/components/ItemComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="120">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-list/src/components/AddItemComponent.vue">
+    <entry file="file://$PROJECT_DIR$/shopping-list/src/components/ChangeTitleComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding />
         </state>
       </provider>
