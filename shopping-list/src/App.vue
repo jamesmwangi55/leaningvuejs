@@ -1,17 +1,33 @@
 <template>
-  <div id="app">
-    <h2>{{ title }}</h2>
-    <add-item-component></add-item-component>
-    <items-component :items="items"></items-component>
-    <div class="footer">
-      <hr>
-      <change-title-component v-model="title"></change-title-component>
-    </div>
-  </div>
+
 </template>
 
 <script>
+  import AddItemComponent from './components/AddItemComponent.vue'
+  import ItemsComponent from './components/ItemsComponent.vue'
+  import ChangeTitleComponent from './components/ChangeTitleComponent.vue'
 
+  export default {
+    components: {
+      AddItemComponent,
+      ItemsComponent,
+      ChangeTitleComponent
+    },
+    data () {
+      return {
+        items: [{text: 'Bananas', checked: true},
+          {text: 'Apples', checked: true}]
+      }
+    },
+    methods: {
+      addItem (text) {
+        this.items.push({
+          text: text,
+          checked: false
+        })
+      }
+    }
+  }
 </script>
 
 <style>

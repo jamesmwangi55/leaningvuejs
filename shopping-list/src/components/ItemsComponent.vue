@@ -1,14 +1,14 @@
 <!--items list template-->
-<template id="items-template">
-  <ul>
-    <item-component v-for="item in items" :item="item"></item-component>
-  </ul>
+<template>
+  <div>
+    items
+  </div>
 </template>
 
 <script>
-  import Vue from 'vue'
-  Vue.component('items-component', {
-    template: '#items-template',
-    props: ['items']
-  })
+  export default {}
 </script>
+
+<style scoped>
+
+</style>

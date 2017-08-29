@@ -1,24 +1,14 @@
 <!--add new item template-->
-<template id="add-item-template">
-  <div class="input-group">
-    <input @keyup.enter="addItem" v-model="newItem"
-           placeholder="add shopping list item" type="text"
-           class="form-control">
-    <span class="input-group-btn">
-<button @click="addItem" class="btn btn-default"
-        type="button">Add!</button>
-</span>
+<template>
+  <div>
+    add items
   </div>
 </template>
 
 <script>
-  import Vue from 'vue'
-  Vue.component('add-item-component', {
-    template: "#add-item-template",
-    data: function () {
-      return {
-        newItem: ''
-      }
-    }
-  })
+  export default {}
 </script>
+
+<style scoped>
+
+</style>
