@@ -1,12 +1,18 @@
 <!--items list template-->
 <template>
   <div>
-    items
+    <item-component v-for="item in items" :item="item" :key="item.text"></item-component>
   </div>
 </template>
 
 <script>
-  export default {}
+  import ItemComponent from './ItemComponent.vue'
+  export default {
+    components: {
+      ItemComponent
+    },
+    props: ['items']
+  }
 </script>
 
 <style scoped>
