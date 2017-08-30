@@ -2,16 +2,16 @@
 <template>
   <div>
     <em>Change the title of your shopping list here</em>
-    <input type="text" v-model="mutableTitle">
+    <input type="text" :value="value" @input="onInput">
   </div>
 </template>
 
 <script>
   export default {
-    props: ['title'],
-    data () {
-      return {
-        mutableTitle: this.title
+    props: ['value'],
+    methods: {
+      onInput (event) {
+        this.$emit('input', event.target.value)
       }
     }
   }

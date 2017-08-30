@@ -2,7 +2,8 @@
 <template>
   <div>
     <div class="input-group">
-      <input type="text" class="input form-control" v-model="newItem" @keyup.13="addItem" placeholder="add shopping list item">
+      <input type="text" class="input form-control"
+             v-model="newItem" @keyup.enter="addItem" placeholder="add shopping list item">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button" @click="addItem">Add!</button>
       </span>
@@ -17,17 +18,13 @@
         newItem: ''
       }
     },
-    props: ['items'],
     methods: {
       addItem () {
         var text
 
         text = this.newItem.trim()
         if (text) {
-          this.items.push({
-            text: text,
-            checked: false
-          })
+          this.$emit('add', this.newItem)
           this.newItem = ''
         }
       }
