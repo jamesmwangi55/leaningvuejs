@@ -5,6 +5,14 @@ import App from './App'
 
 Vue.config.productionTip = false
 
+Vue.filter('uppercase', (key) => {
+  return key.toUpperCase()
+})
+
+Vue.filter('addspace', (value) => {
+  return value + ' '
+})
+
 Vue.filter('lowercase', (key) => {
   return key.toLowerCase()
 })
