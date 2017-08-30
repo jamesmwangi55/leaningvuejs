@@ -1,10 +1,10 @@
 <template>
   <div id="app" class="container">
     <h2>
-      <span>Pomodoro</span>
+      <span>{{ 'Pomodoro' | lowercase }}</span>
       <controls-component></controls-component>
     </h2>
-    <state-title-component></state-title-component>
+    <state-title-component v-bind:isWorking="isWorking"></state-title-component>
     <countdown-component></countdown-component>
     <transition name="fade">
       <kittens-component v-if="kittens"></kittens-component>
@@ -19,7 +19,8 @@
   import StateTitleComponent from './components/StateTitleComponent.vue'
 
   window.data = {
-    kittens: true
+    kittens: true,
+    isWorking: true
   }
 
   export default {
