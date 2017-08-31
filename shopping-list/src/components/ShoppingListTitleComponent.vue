@@ -1,9 +1,7 @@
 <template>
-  <div>
     <a :href="href" :aria-controls="id" role="tab" data-toggle="tab">
       {{ title }}</a>
-  </div>
-</template>
+  </template>
 
 <script>
   export default{
