@@ -14,8 +14,11 @@
            class="tab-pane" role="tabpane" :id="list.id">
 
         <shopping-list-component
+          :id="list.id"
           :title="list.title"
-          :items="list.items"></shopping-list-component>
+          :items="list.items"
+          v-on:changeTitle="onChangeTitle">
+        </shopping-list-component>
 
       </div>
     </div>
@@ -25,6 +28,7 @@
 <script>
   import ShoppingListComponent from './components/ShoppingListComponent.vue'
   import ShoppingListTitleComponent from './components/ShoppingListTitleComponent.vue'
+  import _ from 'underscore'
 
   export default {
     components: {
@@ -60,6 +64,11 @@
           }
         ]
       }
+    },
+    methods: {
+      onChangeTitle (id, text) {
+        _.findWhere(this.shoppinglists, {id: id}).title = text
+      }
     }
   }
 </script>
@@ -67,7 +76,7 @@
 <style scoped>
   .container {
     width: 40%;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 0 auto;
   }
   .footer {
     font-size: 0.7em;
