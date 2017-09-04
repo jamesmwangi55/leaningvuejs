@@ -1,19 +1,22 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import getters from './getters'
+import { CHANGE_MSG, INCREMENT_COUNTER} from "./mutation_types";
 
 Vue.use(Vuex)
 
 const state = {
-  msg: 'Hello Vue!'
+  message: 'Hello Vue!'
 }
 
 const mutations = {
-  changeMessage(state, msg){
-    state.msg = msg
+  [CHANGE_MSG](state, msg){
+    state.message = msg
   }
 }
 
 export default new Vuex.Store({
   state,
-  mutations
+  mutations,
+  getters
 })

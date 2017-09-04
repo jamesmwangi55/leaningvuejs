@@ -1,17 +1,17 @@
 <template>
-  <input :value="msg" @keyup="changeMsg">
+  <input :value="getMessage" @keyup="changeMsg">
 </template>
 
 <script>
+
+  import { mapGetters } from 'vuex'
+  import  { CHANGE_MSG } from '../vuex/mutation_types'
+
   export default {
-    computed: {
-      msg() {
-        return this.$store.state.msg
-      }
-    },
+    computed: mapGetters(['getMessage']),
     methods: {
       changeMsg(ev){
-        this.$store.commit('changeMessage', ev.target.value)
+        this.$store.commit(CHANGE_MSG, ev.target.value)
       }
     }
   }
